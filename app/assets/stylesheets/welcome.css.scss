@@ -1,3 +1,23 @@
-// Place all the styles related to the welcome controller here.
-// They will automatically be included in application.css.
-// You can use Sass (SCSS) here: http://sass-lang.com/
+@font-face {
+  font-family: 'TheGoldenEra';    
+  src: url('/assets/TheGoldenEra.otf');
+  font-weight: normal;
+  font-style: normal;
+}
+body {
+    background-color: #E8D7AC;
+    text-align: center;
+}
+.middle {
+    margin: auto;
+}
+.logo {
+    ;
+}
+.title {
+    position: relative;
+    font-family: TheGoldenEra;
+    font-size: 80px;
+    color: #57000B;
+    margin: auto;
+}
