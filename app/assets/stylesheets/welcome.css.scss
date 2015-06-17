@@ -7,17 +7,38 @@
 body {
     background-color: #E8D7AC;
     text-align: center;
+    width: 100%;
+    min-width: 1300px;
 }
 .middle {
     margin: auto;
+    width: 50%;
+    float: left;
 }
-.logo {
-    ;
-}
+
 .title {
     position: relative;
     font-family: TheGoldenEra;
     font-size: 80px;
     color: #57000B;
     margin: auto;
+}
+
+.left {
+    width: 25%;
+    float: left;
+    padding-top: 20px;
+}
+
+.right {
+    width: 25%;
+    padding-top: 20px;
+    float: left;
+    font-family: TheGoldenEra;
+    font-size: 30px;
+    color: #57000B;
+    margin: auto;
+}
+#block {
+    padding: 5px;
 }

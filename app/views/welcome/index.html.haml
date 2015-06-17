@@ -1,4 +1,12 @@
+.left
+  .weibo= link_to image_tag("frontpage/weibo.png"), "http://weibo.com/bostonfuyun"
+  .facebook= link_to image_tag("frontpage/facebook.png"), "https://www.facebook.com/BoShiDunFuYunXiangShengShe"
+  .email= link_to image_tag("frontpage/mail.png")
 .middle
-  .logo= link_to image_tag("frontpage/logo.png"), root_path
+  .logo= image_tag("frontpage/logo.png")
   %h1.title= "波士顿浮云相声社"
   .photos
+.right
+  .intro#block= "浮云简介"
+  .member#block= "成员介绍"
+  .history#block= "历史回顾"
