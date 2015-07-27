@@ -16,6 +16,10 @@ body {
     float: left;
 }
 
+.logo {
+    width: auto;
+    height: auto;
+}
 .title {
     position: relative;
     font-family: TheGoldenEra;
@@ -41,4 +45,58 @@ body {
 }
 #block {
     padding: 5px;
+}
+
+.show{
+    height: 200px;
+    padding-top: 20px;
+    padding-bottom:100px;
+}
+
+.name{
+    position: relative;
+    font-family: TheGoldenEra;
+    font-size: 40px;
+    color: #57000B;
+    margin: auto;
+}
+
+.time{
+    position: relative;
+    font-family: TheGoldenEra;
+    font-size: 25px;
+    color: #57000B;
+    margin: auto;
+}
+.menu{
+    margin-top: 20px;
+    margin-right: 20%;
+}
+#menu{
+    float: right;
+    position: relative;
+    font-family: TheGoldenEra;
+    font-size: 35px;
+    color: #57000B;
+    margin: auto;
+    width: 1.5em;
+}
+#actor{
+    float: right;
+    position: relative;
+    font-family: TheGoldenEra;
+    font-size: 20px;
+    color: #57000B;
+    margin: auto;
+    width: 1.5em;
+}
+
+.ticket{
+    position: relative;
+    font-family: TheGoldenEra;
+    font-size: 35px;
+    color: #57000B;
+    margin: auto;
+    padding-top: 50px;
+    width:200px;
 }
